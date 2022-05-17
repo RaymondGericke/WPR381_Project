@@ -5,7 +5,16 @@ function App() {
   const [data, setData] = useState({})
   const [ZipCode, setZip] = useState('')
 
+  // copy original 
+  //const url = `https://api.openweathermap.org/data/2.5/weather?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
+
   const url = `https://api.openweathermap.org/data/2.5/weather?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
+
+  //experiment 
+  //const url =`https://api.openweathermap.org/data/2.5/onecall?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric` //experiment 
+
+  // need to use API 
+  //const url =`https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
 
   const searchZip = (event) => {
     if (event.key === 'Enter') {
