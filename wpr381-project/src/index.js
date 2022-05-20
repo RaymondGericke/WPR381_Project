@@ -11,3 +11,11 @@ root.render(
   </React.StrictMode>
 );
 
+function celsiusToFahrenheit(Temp){
+    return (Temp * 9/5 +32);
+}
+
+function fahrenheitToCelsius(Temp){
+    return ((Temp - 32) * 5/9);
+}
+
