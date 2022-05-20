@@ -9,6 +9,9 @@ function App() {
   //const url = `https://api.openweathermap.org/data/2.5/weather?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
 
   const url = `https://api.openweathermap.org/data/2.5/weather?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
+  
+  //const url = `https://api.openweathermap.org/data/2.5/forecast/daily?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
+  //const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric`
 
   //experiment 
   //const url =`https://api.openweathermap.org/data/2.5/onecall?zip=${ZipCode},ZA&appid=8a591b7d222aae763fc9d6e5a1f06b16&units=metric` //experiment 
