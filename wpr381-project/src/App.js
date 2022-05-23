@@ -1,9 +1,5 @@
 // Weather app project by Adam Dickinson, Raymond Gericke, Gregory Avvakoumides, Stefan Du Toit, Carl Marnewick
 
-
-
-
-
 import React, {useState} from 'react';
 import axios from 'axios'
 
